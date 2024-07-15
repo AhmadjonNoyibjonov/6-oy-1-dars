@@ -292,6 +292,7 @@ h1 span {
   align-items: center;
   justify-content: space-between;
   margin-top: -85px;
+  margin-bottom: 153.43px;
 }
 
 .logotips img:nth-child(1) {
@@ -313,4 +314,126 @@ h1 span {
 .logotips img:nth-child(5) {
   width: 104.78px;
   height: 23.41px;
+}
+
+/* div  information*/
+.information {
+  width: 1196px;
+  height: 532.64px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 103.36px;
+}
+
+.information h5 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26.5px;
+  letter-spacing: 0.095em;
+  text-align: left;
+  color: #4475f2;
+  margin-left: 0px;
+  margin-bottom: 13px;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #14183e;
+  margin-left: 0px;
+  margin-bottom: 46.27px;
+}
+
+.information .blocks {
+  display: flex;
+  gap: 26.67px;
+}
+
+.information .blocks div {
+  width: 278.46px;
+  height: 392.36px;
+  box-shadow: 0px 1.07px 4.94px 0px #81818104;
+
+  box-shadow: 0px 2.48px 11.48px 0px #81818108;
+
+  box-shadow: 0px 4.45px 20.61px 0px #8181810b;
+
+  box-shadow: 0px 7.39px 34.2px 0px #8181810e;
+
+  box-shadow: 0px 12.17px 56.35px 0px #81818111;
+
+  box-shadow: 0px 21.27px 98.48px 0px #81818115;
+
+  box-shadow: 0px 46px 213px 0px #8181811f;
+  position: relative;
+}
+.information .blocks div img {
+  border-radius: 10px;
+}
+
+.information .blocks div span {
+  width: 149px;
+  height: 76px;
+  position: absolute;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  top: 317.58px;
+  left: 0px;
+  padding: 12px;
+  background: #ffffffb2;
+}
+
+.information .blocks div span h5 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20.5px;
+  text-align: left;
+  color: #042521;
+}
+
+.information .blocks div span p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20.5px;
+  text-align: left;
+  color: #80918e;
+}
+
+.maps_info {
+  width: 1196px;
+  display: flex;
+  flex-direction: column;
+}
+
+.maps_info h6 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26.5px;
+  letter-spacing: 0.095em;
+  text-align: center;
+  color: #4737ff;
+  margin-bottom: 19px;
+}
+
+.maps_info h2 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 62px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #151d21;
+  margin-bottom: 18px;
+}
+
+.maps_info p {
+  width: 820px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #18191f;
+  margin-bottom: 45px;
 }

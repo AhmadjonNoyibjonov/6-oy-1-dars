@@ -111,7 +111,6 @@ function App() {
           </div>
         </nav>
       </header>
-
       <div className="hero-part">
         <div className="hero-info-part">
           <a href="">✈️ • Explore the wonderful indonesia!</a>
@@ -141,13 +140,61 @@ function App() {
           <img src="src/assets/images/background.png" alt="image" />
         </div>
       </div>
-
       <div className="logotips container">
         <img src="src/assets/images/axon_icon.svg" alt="axon logo" />
         <img src="src/assets/images/jetstar_icon.svg" alt="jetstar icon" />
         <img src="src/assets/images/expedia_icon.svg" alt="expedia icon" />
         <img src="src/assets/images/Qantas_icon.svg" alt="qantas icon" />
         <img src="src/assets/images/alitali_icon.svg" alt="alitali icon" />
+      </div>
+      <div className="information container">
+        <h5>DESTINASI FAVORIT</h5>
+        <h2>✈️ • Temukan Destinasi Favoritmu </h2>
+        <div className="blocks">
+          <div>
+            <img
+              src="src/assets/images/Raja_ampat.png"
+              alt="raja ampat picture"
+            />
+            <span>
+              <h5>Raja Ampat</h5>
+              <p>Bali</p>
+            </span>
+          </div>
+          <div>
+            <img
+              src="src/assets/images/Labuan_bajo.png"
+              alt="labuan bajo picture"
+            />
+            <span>
+              <h5>Labuan Bajo</h5>
+              <p>NTT</p>
+            </span>
+          </div>
+          <div>
+            <img
+              src="src/assets/images/Kawan_ijen.png"
+              alt="kawash ijen picture"
+            />
+            <span>
+              <h5>Kawah Ijen</h5>
+              <p>Jawa Timur</p>
+            </span>
+          </div>
+          <div>
+            <img src="src/assets/images/Bromo.png" alt="bromo picture" />
+            <span>
+              <h5>Bromo</h5>
+              <p>Jawa Timur</p>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="maps_info container">
+        <h6>CARI TEMPAT WISATA</h6>
+        <h2>🗺️ • Cari Tempat Wisata Didekatmu</h2>
+        <p>Fitur ini memungkinkan kamu untuk mencari tempat wisata atau tempat yang sedang populer di daerah kamu dengan begitu kamu akan selalu update dan gak kudet lagi 👍🏻</p>
+        <img src="src/assets/images/map_images.png" alt="map picture" />
       </div>
     </>
   );
