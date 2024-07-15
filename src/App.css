@@ -172,14 +172,6 @@
 }
 
 /* div hero part */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Plus Jakarta Sans";
-}
 
 .hero-part {
   width: 1286px;
@@ -232,7 +224,7 @@ h1 span {
   letter-spacing: -0.04em;
   text-align: left;
 }
-p {
+.hero-part p {
   width: 477px;
   color: #000;
   font-size: 16px;
@@ -241,6 +233,7 @@ p {
   text-align: left;
   color: #5e6282;
   margin-top: 31px;
+  margin-left: 0px;
 }
 
 .buttons {
